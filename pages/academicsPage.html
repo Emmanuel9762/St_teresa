@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academics - St. Teresa Senior Secondary School</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/academicsPage.css" />
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="container top-bar-content">
+        <div class="contact-top">
+          <span><i class="fas fa-phone"></i> +27 43 555 0123</span>
+          <span><i class="fas fa-envelope"></i> academics@stteresa.edu.za</span>
+        </div>
+        <div class="language-toggle">
+          <button class="active">EN</button>
+          <button>XH</button>
+          <button>AF</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <div class="container header-inner">
+        <div class="logo">
+          <div class="logo-img">
+            <svg width="60" height="60" viewBox="0 0 60 60">
+              <circle cx="30" cy="30" r="28" fill="#00563F" />
+              <path
+                d="M30,10 L35,25 L50,25 L37,33 L42,48 L30,38 L18,48 L23,33 L10,25 L25,25 Z"
+                fill="#CFA15B"
+              />
+              <text
+                x="30"
+                y="55"
+                text-anchor="middle"
+                fill="white"
+                font-size="10"
+                font-weight="bold"
+              >
+                ST TERESA
+              </text>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <h1>St. Teresa S.S.S</h1>
+            <p>Empowering Minds, Enriching Communities</p>
+          </div>
+        </div>
+
+        <button class="nav-toggle" id="navToggle">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <nav id="mainNav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="academics.html" class="active"
+                >Academics <i class="fas fa-chevron-down"></i
+              ></a>
+              <ul class="dropdown">
+                <li><a href="#curriculum">Curriculum</a></li>
+                <li><a href="#subjects">Subjects</a></li>
+                <li><a href="#faculty">Faculty</a></li>
+                <li><a href="#matric">Matric Results</a></li>
+              </ul>
+            </li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li>
+              <a href="#">Community <i class="fas fa-chevron-down"></i></a>
+              <ul class="dropdown">
+                <li><a href="#">News & Events</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Volunteering</a></li>
+                <li><a href="#">Alumni</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Academic Excellence</h1>
+          <p>
+            At St. Teresa, we combine rigorous academics with Catholic values to
+            prepare students for university success and meaningful contributions
+            to society.
+          </p>
+
+          <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><span>Academics</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Academic Philosophy -->
+    <section class="philosophy-section" id="philosophy">
+      <div class="container">
+        <div class="philosophy-container">
+          <div class="philosophy-content">
+            <h2>Our Educational Philosophy</h2>
+            <p>
+              St. Teresa Senior Secondary School is committed to providing a
+              holistic education that develops students intellectually,
+              spiritually, and socially. Our approach combines academic rigor
+              with character formation rooted in Catholic values.
+            </p>
+            <p>
+              We believe every student has unique God-given talents, and our
+              mission is to help each learner discover and develop their
+              potential through personalized attention, challenging coursework,
+              and diverse extracurricular opportunities.
+            </p>
+
+            <div class="pillars-grid">
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <i class="fas fa-brain"></i>
+                </div>
+                <h3>Intellectual Growth</h3>
+                <p>Critical thinking and academic excellence</p>
+              </div>
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <i class="fas fa-heart"></i>
+                </div>
+                <h3>Spiritual Formation</h3>
+                <p>Faith development and moral reasoning</p>
+              </div>
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <i class="fas fa-hands-helping"></i>
+                </div>
+                <h3>Social Responsibility</h3>
+                <p>Community service and leadership</p>
+              </div>
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <i class="fas fa-user"></i>
+                </div>
+                <h3>Personal Development</h3>
+                <p>Self-discovery and talent cultivation</p>
+              </div>
+            </div>
+          </div>
+          <div class="philosophy-image">
+            <div
+              style="
+                height: 100%;
+                background: var(--teresa-green);
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                padding: 30px;
+              "
+            >
+              <div style="text-align: center">
+                <i
+                  class="fas fa-graduation-cap"
+                  style="font-size: 4rem; margin-bottom: 20px"
+                ></i>
+                <h3 style="color: var(--teresa-gold)">
+                  96.4% Matric Pass Rate
+                </h3>
+                <p>Consistently outperforming provincial averages</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Curriculum Section -->
+    <section class="curriculum-section" id="curriculum">
+      <div class="container">
+        <div class="section-header">
+          <h2>Curriculum Overview</h2>
+          <p>
+            St. Teresa offers the full CAPS curriculum approved by the
+            Department of Basic Education, with specialized streams to meet
+            diverse student interests and career aspirations.
+          </p>
+        </div>
+
+        <div class="curriculum-tabs">
+          <button class="tab-btn active" data-tab="grade8-9">Grades 8-9</button>
+          <button class="tab-btn" data-tab="grade10">Grade 10</button>
+          <button class="tab-btn" data-tab="grade11-12">Grades 11-12</button>
+        </div>
+
+        <div class="tab-content active" id="grade8-9">
+          <h3 style="text-align: center; margin-bottom: 30px">
+            Foundation Phase Curriculum
+          </h3>
+          <div class="subject-grid">
+            <div class="subject-card">
+              <div class="subject-header">
+                <h3>Core Subjects</h3>
+              </div>
+              <div class="subject-body">
+                <ul>
+                  <li>English Home Language</li>
+                  <li>isiXhosa First Additional</li>
+                  <li>Mathematics</li>
+                  <li>Natural Sciences</li>
+                  <li>Social Sciences</li>
+                  <li>Technology</li>
+                  <li>Economic Management Sciences</li>
+                  <li>Life Orientation</li>
+                  <li>Creative Arts</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="subject-card">
+              <div class="subject-header">
+                <h3>Special Programs</h3>
+              </div>
+              <div class="subject-body">
+                <ul>
+                  <li>Reading Enhancement Program</li>
+                  <li>Maths Olympiad Training</li>
+                  <li>Science Club</li>
+                  <li>Digital Literacy Program</li>
+                  <li>Career Exploration</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="subject-card">
+              <div class="subject-header">
+                <h3>Assessment</h3>
+              </div>
+              <div class="subject-body">
+                <p>
+                  Our assessment approach focuses on developing foundational
+                  skills through:
+                </p>
+                <ul>
+                  <li>Continuous formative assessment</li>
+                  <li>Project-based learning</li>
+                  <li>Practical demonstrations</li>
+                  <li>Standardized benchmark tests</li>
+                  <li>Portfolio development</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="grade10">
+          <h3 style="text-align: center; margin-bottom: 30px">
+            Grade 10 Curriculum
+          </h3>
+          <div class="subject-grid">
+            <div class="subject-card">
+              <div class="subject-header">
+                <h3>Compulsory Subjects</h3>
+              </div>
+              <div class="subject-body">
+                <ul>
+                  <li>English Home Language</li>
+                  <li>isiXhosa First Additional</li>
+                  <li>Mathematics / Mathematical Literacy</li>
+                  <li>Life Orientation</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="subject-card">
+              <div class="subject-header">
+                <h3>Stream Selection</h3>
+              </div>
+              <div class="subject-body">
+                <p>Students choose three elective subjects from one stream:</p>
+                <p><strong>Science Stream:</strong></p>
+                <ul>
+                  <li>Physical Sciences</li>
+                  <li>Life Sciences</li>
+                  <li>Agricultural Sciences</li>
+                </ul>
+                <p><strong>Commerce Stream:</strong></p>
+                <ul>
+                  <li>Accounting</li>
+                  <li>Business Studies</li>
+                  <li>Economics</li>
+                </ul>
+                <p><strong>General Stream:</strong></p>
+                <ul>
+                  <li>Geography</li>
+                  <li>History</li>
+                  <li>Tourism</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="subject-card">
+              <div class="subject-header">
+                <h3>Career Guidance</h3>
+              </div>
+              <div class="subject-body">
+                <p>
+                  Specialized programs to help students make informed subject
+                  choices:
+                </p>
+                <ul>
+                  <li>Career aptitude testing</li>
+                  <li>University pathway planning</li>
+                  <li>Industry exposure visits</li>
+                  <li>Mentorship program</li>
+                  <li>Subject choice counseling</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="grade11-12">
+          <h3 style="text-align: center; margin-bottom: 30px">
+            Matric Curriculum (Grades 11-12)
+          </h3>
+          <div class="subject-grid">
+            <div class="subject-card">
+              <div class="subject-header">
+                <h3>Science Stream</h3>
+              </div>
+              <div class="subject-body">
+                <ul>
+                  <li>English Home Language</li>
+                  <li>isiXhosa First Additional</li>
+                  <li>Mathematics</li>
+                  <li>Physical Sciences</li>
+                  <li>Life Sciences</li>
+                  <li>Life Orientation</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="subject-card">
+              <div class="subject-header">
+                <h3>Commerce Stream</h3>
+              </div>
+              <div class="subject-body">
+                <ul>
+                  <li>English Home Language</li>
+                  <li>isiXhosa First Additional</li>
+                  <li>Mathematics / Maths Literacy</li>
+                  <li>Accounting</li>
+                  <li>Business Studies</li>
+                  <li>Economics</li>
+                  <li>Life Orientation</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="subject-card">
+              <div class="subject-header">
+                <h3>General Stream</h3>
+              </div>
+              <div class="subject-body">
+                <ul>
+                  <li>English Home Language</li>
+                  <li>isiXhosa First Additional</li>
+                  <li>Mathematical Literacy</li>
+                  <li>Geography</li>
+                  <li>History</li>
+                  <li>Life Orientation</li>
+                  <li>Tourism / Agricultural Sciences</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="subject-card">
+              <div class="subject-header">
+                <h3>Matric Preparation</h3>
+              </div>
+              <div class="subject-body">
+                <p>Specialized programs to ensure exam readiness:</p>
+                <ul>
+                  <li>Past paper boot camps</li>
+                  <li>Study skills workshops</li>
+                  <li>University application support</li>
+                  <li>Subject-specific revision sessions</li>
+                  <li>Exam technique training</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Faculty Section -->
+    <section class="faculty-section" id="faculty">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Academic Faculty</h2>
+          <p>
+            St. Teresa's dedicated teaching staff bring expertise, passion, and
+            commitment to our classrooms
+          </p>
+        </div>
+
+        <div class="faculty-grid">
+          <div class="faculty-card">
+            <div class="faculty-img">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <div class="faculty-content">
+              <h3>Dr. Thandi Ndlovu</h3>
+              <p class="position">Head of Science Department</p>
+              <p class="qualifications">
+                PhD Chemistry, MEd Leadership, BSc Hons
+              </p>
+              <p>20+ years teaching experience, published researcher</p>
+            </div>
+          </div>
+
+          <div class="faculty-card">
+            <div class="faculty-img">
+              <i class="fas fa-calculator"></i>
+            </div>
+            <div class="faculty-content">
+              <h3>Mr. Sipho Mbeki</h3>
+              <p class="position">Mathematics Coordinator</p>
+              <p class="qualifications">MSc Mathematics, BEd, PMP Certified</p>
+              <p>
+                Specialist in mathematics pedagogy and curriculum development
+              </p>
+            </div>
+          </div>
+
+          <div class="faculty-card">
+            <div class="faculty-img">
+              <i class="fas fa-book"></i>
+            </div>
+            <div class="faculty-content">
+              <h3>Ms. Nomalanga Khoza</h3>
+              <p class="position">Head of Languages</p>
+              <p class="qualifications">
+                MA Linguistics, BEd English & isiXhosa
+              </p>
+              <p>Author of isiXhosa language textbooks, examiner for DBE</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px">
+          <a href="#" class="btn btn-outline">View Full Faculty Directory</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Matric Excellence Section -->
+    <section class="matric-section" id="matric">
+      <div class="container">
+        <div class="matric-container">
+          <div class="matric-content">
+            <div class="section-header" style="text-align: left; margin: 0">
+              <h2>Matric Excellence</h2>
+              <p>Our consistent track record of outstanding matric results</p>
+            </div>
+
+            <p>
+              St. Teresa has maintained a matric pass rate above 95% for the
+              past six years, with significant increases in bachelor degree
+              passes and distinctions.
+            </p>
+
+            <div class="matric-stats">
+              <div class="stat-box">
+                <div class="stat-value">96.4%</div>
+                <div>2024 Pass Rate</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-value">82%</div>
+                <div>Bachelor Passes</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-value">147</div>
+                <div>Subject Distinctions</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-value">12</div>
+                <div>Full A Students</div>
+              </div>
+            </div>
+
+            <div style="margin-top: 30px">
+              <a href="#" class="btn btn-primary"
+                >Download Full Matric Report</a
+              >
+            </div>
+          </div>
+
+          <div class="chart-container">
+            <h3 style="text-align: center; margin-bottom: 30px">
+              Matric Performance Trend (2019-2024)
+            </h3>
+            <div class="chart-label">
+              <span>2024</span>
+              <span>96.4%</span>
+            </div>
+            <div class="chart-bar">
+              <div class="chart-fill" style="width: 96.4%"></div>
+            </div>
+
+            <div class="chart-label">
+              <span>2023</span>
+              <span>94.7%</span>
+            </div>
+            <div class="chart-bar">
+              <div class="chart-fill" style="width: 94.7%"></div>
+            </div>
+
+            <div class="chart-label">
+              <span>2022</span>
+              <span>93.2%</span>
+            </div>
+            <div class="chart-bar">
+              <div class="chart-fill" style="width: 93.2%"></div>
+            </div>
+
+            <div class="chart-label">
+              <span>2021</span>
+              <span>91.5%</span>
+            </div>
+            <div class="chart-bar">
+              <div class="chart-fill" style="width: 91.5%"></div>
+            </div>
+
+            <div class="chart-label">
+              <span>2020</span>
+              <span>89.8%</span>
+            </div>
+            <div class="chart-bar">
+              <div class="chart-fill" style="width: 89.8%"></div>
+            </div>
+
+            <div class="chart-label">
+              <span>2019</span>
+              <span>87.3%</span>
+            </div>
+            <div class="chart-bar">
+              <div class="chart-fill" style="width: 87.3%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Academic Support Section -->
+    <section class="support-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Academic Support Services</h2>
+          <p>
+            Comprehensive programs to ensure every student reaches their
+            potential
+          </p>
+        </div>
+
+        <div class="support-grid">
+          <div class="support-card">
+            <div class="support-icon">
+              <i class="fas fa-book-open"></i>
+            </div>
+            <h3>After-School Tutoring</h3>
+            <p>
+              Free tutoring in core subjects by teachers and senior students,
+              Monday-Thursday from 3:00-5:00 PM
+            </p>
+          </div>
+
+          <div class="support-card">
+            <div class="support-icon">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <h3>Digital Learning Lab</h3>
+            <p>
+              Access to computers, educational software, and online resources
+              during school hours and weekends
+            </p>
+          </div>
+
+          <div class="support-card">
+            <div class="support-icon">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <h3>University Prep Program</h3>
+            <p>
+              Comprehensive support for university applications, scholarship
+              searches, and career planning
+            </p>
+          </div>
+
+          <div class="support-card">
+            <div class="support-icon">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h3>Study Skills Workshops</h3>
+            <p>
+              Monthly workshops on time management, exam preparation,
+              note-taking, and research skills
+            </p>
+          </div>
+
+          <div class="support-card">
+            <div class="support-icon">
+              <i class="fas fa-hands-helping"></i>
+            </div>
+            <h3>Peer Mentoring</h3>
+            <p>
+              Senior students mentor juniors in academic subjects and school
+              adjustment
+            </p>
+          </div>
+
+          <div class="support-card">
+            <div class="support-icon">
+              <i class="fas fa-chalkboard-teacher"></i>
+            </div>
+            <h3>Subject Clinics</h3>
+            <p>
+              Specialized support for challenging subjects like Mathematics and
+              Physical Sciences
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="resources-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Academic Resources</h2>
+          <p>Tools and materials to support student learning</p>
+        </div>
+
+        <div class="resources-tabs">
+          <button class="resource-tab active" data-resource="timetables">
+            Timetables
+          </button>
+          <button class="resource-tab" data-resource="textbooks">
+            Textbooks
+          </button>
+          <button class="resource-tab" data-resource="past-papers">
+            Past Papers
+          </button>
+          <button class="resource-tab" data-resource="digital">
+            Digital Resources
+          </button>
+        </div>
+
+        <div class="resources-content">
+          <div class="resource-card">
+            <h4><i class="fas fa-calendar-alt"></i> Term 2 Timetable</h4>
+            <p>
+              Download the current timetable for all grades, including exam
+              schedules and special events.
+            </p>
+            <a
+              href="#"
+              class="btn btn-outline"
+              style="margin-top: 15px; padding: 8px 15px"
+              >Download PDF</a
+            >
+          </div>
+
+          <div class="resource-card">
+            <h4><i class="fas fa-book"></i> Textbook List 2024</h4>
+            <p>
+              Complete list of required textbooks for each grade and subject,
+              including ISBN numbers.
+            </p>
+            <a
+              href="#"
+              class="btn btn-outline"
+              style="margin-top: 15px; padding: 8px 15px"
+              >View List</a
+            >
+          </div>
+
+          <div class="resource-card">
+            <h4><i class="fas fa-file-alt"></i> Matric Past Papers</h4>
+            <p>
+              Past examination papers for all matric subjects from 2015-2023
+              with memorandums.
+            </p>
+            <a
+              href="#"
+              class="btn btn-outline"
+              style="margin-top: 15px; padding: 8px 15px"
+              >Access Papers</a
+            >
+          </div>
+
+          <div class="resource-card">
+            <h4><i class="fas fa-laptop-code"></i> Digital Library</h4>
+            <p>
+              Access our online library of e-books, academic journals, and
+              research databases.
+            </p>
+            <a
+              href="#"
+              class="btn btn-outline"
+              style="margin-top: 15px; padding: 8px 15px"
+              >Visit Library</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h4>About Our School</h4>
+            <p>
+              St. Teresa Senior Secondary School provides fee-free quality
+              education grounded in Catholic values to learners in the
+              Palmietfontein community.
+            </p>
+            <p><strong>Motto:</strong> "Ora et Labora" (Pray and Work)</p>
+            <p><strong>EMIS Number:</strong> 200600795</p>
+          </div>
+
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Academic Calendar</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Exam Timetables</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Subject Resources</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Faculty Directory</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Student Portal</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Palmietfontein, Eastern
+              Cape, 5320
+            </p>
+            <p><i class="fas fa-phone"></i> +27 43 555 0123</p>
+            <p><i class="fas fa-envelope"></i> office@stteresa.edu.za</p>
+
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2024 St. Teresa Senior Secondary School. All Rights Reserved.
+            | Designed with ♥ for our community
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../scripts/academicsPage.js"></script>
+  </body>
+</html>
