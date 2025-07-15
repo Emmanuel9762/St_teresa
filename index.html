@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>St. Teresa Senior Secondary School</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/Index.css" />
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="container top-bar-content">
+        <div class="contact-top">
+          <span><i class="fas fa-phone"></i> +27 43 555 0123</span>
+          <span><i class="fas fa-envelope"></i> office@stteresa.edu.za</span>
+        </div>
+        <div class="language-toggle">
+          <button class="active">EN</button>
+          <button>XH</button>
+          <button>AF</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <div class="container header-inner">
+        <div class="logo">
+          <div class="logo-img">
+            <svg width="60" height="60" viewBox="0 0 60 60">
+              <circle cx="30" cy="30" r="28" fill="#00563F" />
+              <path
+                d="M30,10 L35,25 L50,25 L37,33 L42,48 L30,38 L18,48 L23,33 L10,25 L25,25 Z"
+                fill="#CFA15B"
+              />
+              <text
+                x="30"
+                y="55"
+                text-anchor="middle"
+                fill="white"
+                font-size="10"
+                font-weight="bold"
+              >
+                ST TERESA
+              </text>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <h1>St. Teresa S.S.S</h1>
+            <p>Empowering Minds, Enriching Communities</p>
+          </div>
+        </div>
+
+        <button class="nav-toggle" id="navToggle">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <nav id="mainNav">
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li>
+              <a href="#">Academics <i class="fas fa-chevron-down"></i></a>
+              <ul class="dropdown">
+                <li><a href="#">Curriculum</a></li>
+                <li><a href="#">Subjects</a></li>
+                <li><a href="#">Exam Results</a></li>
+                <li><a href="#">Timetables</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Admissions</a></li>
+            <li>
+              <a href="#">Community <i class="fas fa-chevron-down"></i></a>
+              <ul class="dropdown">
+                <li><a href="#">News & Events</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Volunteering</a></li>
+                <li><a href="#">Alumni</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Quality Education Rooted in Catholic Values</h1>
+          <p>
+            St. Teresa Senior Secondary School provides fee-free, high-quality
+            education to 1,245 learners in the Palmietfontein community. Our
+            96.4% matric pass rate reflects our commitment to excellence.
+          </p>
+          <div class="hero-buttons">
+            <a href="#" class="btn btn-primary">Apply Now</a>
+            <a href="#" class="btn btn-secondary" id="virtualTourBtn"
+              >Virtual Tour</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="hero-image"></div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card gold">
+            <div class="stat-value">96.4%</div>
+            <div class="stat-label">Matric Pass Rate 2024</div>
+          </div>
+          <div class="stat-card green">
+            <div class="stat-value">1,245</div>
+            <div class="stat-label">Learners Empowered</div>
+          </div>
+          <div class="stat-card green">
+            <div class="stat-value">45</div>
+            <div class="stat-label">Dedicated Educators</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Academic Section -->
+    <section class="section academic-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Academic Excellence</h2>
+          <p>
+            Our rigorous curriculum and dedicated teaching staff ensure learners
+            are prepared for success in higher education and beyond.
+          </p>
+        </div>
+
+        <div class="academic-content">
+          <div class="academic-programs">
+            <div class="accordion">
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <h3>CAPS Curriculum</h3>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                  <div class="accordion-content-inner">
+                    <p>
+                      We offer the full CAPS curriculum approved by the
+                      Department of Basic Education with specialized streams in:
+                    </p>
+                    <div class="subject-grid">
+                      <div class="subject-pill">Mathematics</div>
+                      <div class="subject-pill">Physical Sciences</div>
+                      <div class="subject-pill gold">Agricultural Science</div>
+                      <div class="subject-pill">Life Sciences</div>
+                      <div class="subject-pill">Accounting</div>
+                      <div class="subject-pill gold">Business Studies</div>
+                      <div class="subject-pill">Geography</div>
+                      <div class="subject-pill">History</div>
+                      <div class="subject-pill">English</div>
+                      <div class="subject-pill">isiXhosa</div>
+                      <div class="subject-pill">Afrikaans</div>
+                      <div class="subject-pill gold">Life Orientation</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <h3>Extracurricular Programs</h3>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                  <div class="accordion-content-inner">
+                    <p>
+                      Our holistic education approach includes diverse
+                      extracurricular activities:
+                    </p>
+                    <ul class="footer-links">
+                      <li>
+                        <a href="#"
+                          ><i class="fas fa-futbol"></i> Soccer & Netball</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fas fa-music"></i> Choir & Band</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fas fa-paint-brush"></i> Art Club</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fas fa-seedling"></i> Environmental Club</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fas fa-laptop-code"></i> Coding Club</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <h3>University Pathways</h3>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                  <div class="accordion-content-inner">
+                    <p>
+                      Our graduates have been accepted to prestigious
+                      institutions including:
+                    </p>
+                    <ul class="footer-links">
+                      <li>
+                        <a href="#"
+                          ><i class="fas fa-graduation-cap"></i> University of
+                          Cape Town</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fas fa-graduation-cap"></i> Rhodes
+                          University</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fas fa-graduation-cap"></i> Nelson Mandela
+                          University</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fas fa-graduation-cap"></i> Walter Sisulu
+                          University</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fas fa-graduation-cap"></i> University of
+                          Fort Hare</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="performance-chart">
+            <h3>Matric Performance (2019-2024)</h3>
+            <div class="chart-container">
+              <div class="chart-label">
+                <span>2024</span>
+                <span>96.4%</span>
+              </div>
+              <div class="chart-bar">
+                <div class="chart-fill" data-width="96.4"></div>
+              </div>
+
+              <div class="chart-label">
+                <span>2023</span>
+                <span>94.7%</span>
+              </div>
+              <div class="chart-bar">
+                <div class="chart-fill" data-width="94.7"></div>
+              </div>
+
+              <div class="chart-label">
+                <span>2022</span>
+                <span>93.2%</span>
+              </div>
+              <div class="chart-bar">
+                <div class="chart-fill" data-width="93.2"></div>
+              </div>
+
+              <div class="chart-label">
+                <span>2021</span>
+                <span>91.5%</span>
+              </div>
+              <div class="chart-bar">
+                <div class="chart-fill" data-width="91.5"></div>
+              </div>
+
+              <div class="chart-label">
+                <span>2020</span>
+                <span>89.8%</span>
+              </div>
+              <div class="chart-bar">
+                <div class="chart-fill" data-width="89.8"></div>
+              </div>
+
+              <div class="chart-label">
+                <span>2019</span>
+                <span>87.3%</span>
+              </div>
+              <div class="chart-bar">
+                <div class="chart-fill" data-width="87.3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="section community-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Community Impact</h2>
+          <p>
+            Our commitment extends beyond the classroom to uplift the
+            Palmietfontein community through various initiatives.
+          </p>
+        </div>
+
+        <div class="community-grid">
+          <div class="story-card">
+            <div class="story-image"></div>
+            <div class="story-content">
+              <h3>Food Garden Initiative</h3>
+              <p>
+                Students grow fresh produce for the school nutrition program and
+                distribute surplus to local families in need.
+              </p>
+              <a href="#" class="btn btn-outline">Read Success Story</a>
+            </div>
+          </div>
+
+          <div class="story-card">
+            <div class="story-image"></div>
+            <div class="story-content">
+              <h3>After-School Tutoring</h3>
+              <p>
+                Senior students volunteer to tutor younger learners in
+                mathematics and science twice a week.
+              </p>
+              <a href="#" class="btn btn-outline">Learn More</a>
+            </div>
+          </div>
+
+          <div class="donation-card">
+            <div>
+              <h3>Support Our Growth</h3>
+              <p>
+                Help us build our new science laboratory to provide cutting-edge
+                facilities for our learners.
+              </p>
+
+              <div class="progress-container">
+                <div class="progress-bar">
+                  <div class="progress-fill"></div>
+                </div>
+                <div class="progress-text">
+                  <span>R86,200 raised</span>
+                  <span>R205,000 goal</span>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn btn-primary">Donate Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h4>About Our School</h4>
+            <p>
+              St. Teresa Senior Secondary School provides fee-free quality
+              education grounded in Catholic values to learners in the
+              Palmietfontein community.
+            </p>
+            <p><strong>Motto:</strong> "Ora et Labora" (Pray and Work)</p>
+            <p><strong>EMIS Number:</strong> 200600795</p>
+          </div>
+
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Admissions Process</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Exam Timetables</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> School Calendar</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Staff Directory</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Parent Portal</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Palmietfontein, Eastern
+              Cape, 5320
+            </p>
+            <p><i class="fas fa-phone"></i> +27 43 555 0123</p>
+            <p><i class="fas fa-envelope"></i> office@stteresa.edu.za</p>
+
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2024 St. Teresa Senior Secondary School. All Rights Reserved.
+            | Designed with ♥ for our community
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Virtual Tour Modal -->
+    <div class="modal" id="virtualTourModal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Virtual School Tour</h3>
+          <button class="close-modal" id="closeModal">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Experience our campus through this virtual tour while our facilities
+            undergo renovation. This interactive experience showcases our:
+          </p>
+          <ul class="footer-links">
+            <li>
+              <a href="#"
+                ><i class="fas fa-check-circle"></i> Academic buildings</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fas fa-check-circle"></i> Sports facilities</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fas fa-check-circle"></i> Community garden</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fas fa-check-circle"></i> Chapel and meditation
+                spaces</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fas fa-check-circle"></i> Future science lab
+                location</a
+              >
+            </li>
+          </ul>
+          <div
+            style="
+              height: 300px;
+              background: var(--teresa-light);
+              border-radius: 10px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin: 20px 0;
+            "
+          >
+            <p>Virtual Tour Interactive Content</p>
+          </div>
+          <p class="text-center">
+            <a href="#" class="btn btn-primary">Start Virtual Tour</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/Index.js"></script>
+  </body>
+</html>
