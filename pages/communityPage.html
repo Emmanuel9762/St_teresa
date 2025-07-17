@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Community - St. Teresa Senior Secondary School</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/communityPage.css" />
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="container top-bar-content">
+        <div class="contact-top">
+          <span><i class="fas fa-phone"></i> +27 43 555 0123</span>
+          <span><i class="fas fa-envelope"></i> community@stteresa.edu.za</span>
+        </div>
+        <div class="language-toggle">
+          <button class="active">EN</button>
+          <button>XH</button>
+          <button>AF</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <div class="container header-inner">
+        <div class="logo">
+          <div class="logo-img">
+            <svg width="60" height="60" viewBox="0 0 60 60">
+              <circle cx="30" cy="30" r="28" fill="#00563F" />
+              <path
+                d="M30,10 L35,25 L50,25 L37,33 L42,48 L30,38 L18,48 L23,33 L10,25 L25,25 Z"
+                fill="#CFA15B"
+              />
+              <text
+                x="30"
+                y="55"
+                text-anchor="middle"
+                fill="white"
+                font-size="10"
+                font-weight="bold"
+              >
+                ST TERESA
+              </text>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <h1>St. Teresa S.S.S</h1>
+            <p>Empowering Minds, Enriching Communities</p>
+          </div>
+        </div>
+
+        <button class="nav-toggle" id="navToggle">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <nav id="mainNav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="academics.html"
+                >Academics <i class="fas fa-chevron-down"></i
+              ></a>
+              <ul class="dropdown">
+                <li><a href="academics.html">Curriculum</a></li>
+                <li><a href="academics.html">Subjects</a></li>
+                <li><a href="academics.html">Faculty</a></li>
+                <li><a href="academics.html">Matric Results</a></li>
+              </ul>
+            </li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li>
+              <a href="community.html" class="active"
+                >Community <i class="fas fa-chevron-down"></i
+              ></a>
+              <ul class="dropdown">
+                <li><a href="#impact">Projects</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#volunteer">Volunteering</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Building Stronger Communities Together</h1>
+          <p>
+            At St. Teresa, we believe education extends beyond the classroom.
+            Join us in creating positive change in the Palmietfontein community.
+          </p>
+
+          <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><span>Community</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Community Impact -->
+    <section class="impact-section" id="impact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Community Impact Projects</h2>
+          <p>
+            Our initiatives that make a difference in the Palmietfontein
+            community
+          </p>
+        </div>
+
+        <div class="impact-grid">
+          <div class="impact-card">
+            <div class="impact-image">
+              <i class="fas fa-seedling"></i>
+            </div>
+            <div class="impact-content">
+              <h3>Food Garden Initiative</h3>
+              <p>
+                Students cultivate a 2-acre garden providing fresh produce for
+                our school nutrition program and local families in need.
+              </p>
+              <div class="impact-stats">
+                <div class="stat-item">
+                  <div class="stat-value">2,500+</div>
+                  <div>Meals Provided</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-value">45</div>
+                  <div>Families Supported</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="impact-card">
+            <div class="impact-image">
+              <i class="fas fa-book"></i>
+            </div>
+            <div class="impact-content">
+              <h3>Literacy Outreach</h3>
+              <p>
+                Our students tutor primary school children in reading and
+                writing skills every Saturday morning.
+              </p>
+              <div class="impact-stats">
+                <div class="stat-item">
+                  <div class="stat-value">120</div>
+                  <div>Children Helped</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-value">75%</div>
+                  <div>Improvement Rate</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="impact-card">
+            <div class="impact-image">
+              <i class="fas fa-tools"></i>
+            </div>
+            <div class="impact-content">
+              <h3>Skills Development Hub</h3>
+              <p>
+                Evening vocational training programs for community members in
+                computer skills, carpentry, and sewing.
+              </p>
+              <div class="impact-stats">
+                <div class="stat-item">
+                  <div class="stat-value">300+</div>
+                  <div>Graduates</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-value">42%</div>
+                  <div>Employment Rate</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events-section" id="events">
+      <div class="container">
+        <div class="section-header">
+          <h2>Community Events</h2>
+          <p>Join us for upcoming events and activities</p>
+        </div>
+
+        <div class="events-container">
+          <div class="events-calendar">
+            <div class="calendar-header">
+              <h3>June 2024</h3>
+              <div>
+                <button class="btn-outline" style="padding: 5px 10px">
+                  <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="btn-outline" style="padding: 5px 10px">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="calendar-grid">
+              <div class="calendar-day">Sun</div>
+              <div class="calendar-day">Mon</div>
+              <div class="calendar-day">Tue</div>
+              <div class="calendar-day">Wed</div>
+              <div class="calendar-day">Thu</div>
+              <div class="calendar-day">Fri</div>
+              <div class="calendar-day">Sat</div>
+
+              <!-- Calendar Dates -->
+              <div class="calendar-date"></div>
+              <div class="calendar-date"></div>
+              <div class="calendar-date"></div>
+              <div class="calendar-date"></div>
+              <div class="calendar-date"></div>
+              <div class="calendar-date">1</div>
+              <div class="calendar-date">2</div>
+              <div class="calendar-date">3</div>
+              <div class="calendar-date">4</div>
+              <div class="calendar-date event">5</div>
+              <div class="calendar-date">6</div>
+              <div class="calendar-date">7</div>
+              <div class="calendar-date">8</div>
+              <div class="calendar-date">9</div>
+              <div class="calendar-date event">10</div>
+              <div class="calendar-date">11</div>
+              <div class="calendar-date">12</div>
+              <div class="calendar-date event">13</div>
+              <div class="calendar-date">14</div>
+              <div class="calendar-date event">15</div>
+              <div class="calendar-date">16</div>
+              <div class="calendar-date today">17</div>
+              <div class="calendar-date">18</div>
+              <div class="calendar-date">19</div>
+              <div class="calendar-date">20</div>
+              <div class="calendar-date event">21</div>
+              <div class="calendar-date">22</div>
+              <div class="calendar-date">23</div>
+              <div class="calendar-date">24</div>
+              <div class="calendar-date event">25</div>
+              <div class="calendar-date">26</div>
+              <div class="calendar-date">27</div>
+              <div class="calendar-date">28</div>
+              <div class="calendar-date event">29</div>
+              <div class="calendar-date">30</div>
+              <div class="calendar-date"></div>
+              <div class="calendar-date"></div>
+            </div>
+          </div>
+
+          <div class="event-list">
+            <div class="event-item">
+              <div class="event-date">
+                <div class="date">
+                  <div class="day">05</div>
+                  <div class="month">JUN</div>
+                </div>
+                <div>
+                  <h3>Community Clean-Up Day</h3>
+                  <p>9:00 AM - 12:00 PM | Palmietfontein Park</p>
+                </div>
+              </div>
+              <p>
+                Join students and community members as we clean and beautify our
+                local park. Gloves and bags provided!
+              </p>
+              <a href="#" class="btn btn-outline" style="margin-top: 15px"
+                >RSVP Now</a
+              >
+            </div>
+
+            <div class="event-item">
+              <div class="event-date">
+                <div class="date">
+                  <div class="day">10</div>
+                  <div class="month">JUN</div>
+                </div>
+                <div>
+                  <h3>Parent-Teacher Meeting</h3>
+                  <p>4:00 PM - 7:00 PM | School Hall</p>
+                </div>
+              </div>
+              <p>
+                Quarterly meeting to discuss student progress and school
+                initiatives. Light refreshments served.
+              </p>
+              <a href="#" class="btn btn-outline" style="margin-top: 15px"
+                >RSVP Now</a
+              >
+            </div>
+
+            <div class="event-item">
+              <div class="event-date">
+                <div class="date">
+                  <div class="day">15</div>
+                  <div class="month">JUN</div>
+                </div>
+                <div>
+                  <h3>Youth Day Celebration</h3>
+                  <p>10:00 AM - 3:00 PM | School Grounds</p>
+                </div>
+              </div>
+              <p>
+                Annual celebration featuring cultural performances, guest
+                speakers, and food stalls celebrating our youth.
+              </p>
+              <a href="#" class="btn btn-outline" style="margin-top: 15px"
+                >RSVP Now</a
+              >
+            </div>
+
+            <div class="event-item">
+              <div class="event-date">
+                <div class="date">
+                  <div class="day">21</div>
+                  <div class="month">JUN</div>
+                </div>
+                <div>
+                  <h3>Career Fair</h3>
+                  <p>9:00 AM - 2:00 PM | School Gymnasium</p>
+                </div>
+              </div>
+              <p>
+                Local businesses and universities showcase career opportunities
+                for our students and community.
+              </p>
+              <a href="#" class="btn btn-outline" style="margin-top: 15px"
+                >RSVP Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Volunteering Section -->
+    <section class="volunteering-section" id="volunteer">
+      <div class="container">
+        <div class="section-header">
+          <h2>Volunteering Opportunities</h2>
+          <p>Make a difference by joining our community initiatives</p>
+        </div>
+
+        <div class="volunteering-grid">
+          <div class="volunteer-card">
+            <div class="volunteer-icon">
+              <i class="fas fa-book-reader"></i>
+            </div>
+            <h3>Tutoring & Mentoring</h3>
+            <p>
+              Help students with homework or mentor at-risk youth. Flexible
+              hours available after school or on weekends.
+            </p>
+            <a href="#" class="btn btn-outline" style="margin-top: 20px"
+              >Sign Up</a
+            >
+          </div>
+
+          <div class="volunteer-card">
+            <div class="volunteer-icon">
+              <i class="fas fa-seedling"></i>
+            </div>
+            <h3>Community Garden</h3>
+            <p>
+              Join our gardening team to help grow fresh produce for school
+              meals and local families in need.
+            </p>
+            <a href="#" class="btn btn-outline" style="margin-top: 20px"
+              >Sign Up</a
+            >
+          </div>
+
+          <div class="volunteer-card">
+            <div class="volunteer-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h3>Skills Sharing</h3>
+            <p>
+              Teach vocational skills like computer literacy, carpentry, sewing,
+              or entrepreneurship to community members.
+            </p>
+            <a href="#" class="btn btn-outline" style="margin-top: 20px"
+              >Sign Up</a
+            >
+          </div>
+
+          <div class="volunteer-card">
+            <div class="volunteer-icon">
+              <i class="fas fa-hands-helping"></i>
+            </div>
+            <h3>Event Support</h3>
+            <p>
+              Help organize and run community events, fundraisers, and school
+              functions throughout the year.
+            </p>
+            <a href="#" class="btn btn-outline" style="margin-top: 20px"
+              >Sign Up</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Alumni Section -->
+    <section class="alumni-section" id="alumni">
+      <div class="container">
+        <div class="section-header">
+          <h2>Alumni Success Stories</h2>
+          <p>Our graduates making a difference in the world</p>
+        </div>
+
+        <div class="alumni-stories">
+          <div class="alumni-card">
+            <div class="alumni-img">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <div class="alumni-content">
+              <h3>Nomalanga Mbeki</h3>
+              <p class="position">Medical Doctor, Groote Schuur Hospital</p>
+              <p>
+                "St. Teresa gave me the foundation to pursue my dream of
+                becoming a doctor. The teachers believed in me when no one else
+                did."
+              </p>
+            </div>
+          </div>
+
+          <div class="alumni-card">
+            <div class="alumni-img">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="alumni-content">
+              <h3>Sipho Khumalo</h3>
+              <p class="position">Software Engineer, Google South Africa</p>
+              <p>
+                "The computer club at St. Teresa sparked my passion for
+                technology. Now I mentor students from my old school."
+              </p>
+            </div>
+          </div>
+
+          <div class="alumni-card">
+            <div class="alumni-img">
+              <i class="fas fa-chalkboard-teacher"></i>
+            </div>
+            <div class="alumni-content">
+              <h3>Thandiwe Jacobs</h3>
+              <p class="position">Head of Mathematics, St. Teresa SSS</p>
+              <p>
+                "I returned to teach at my alma mater to give back to the
+                community that shaped me. There's no greater reward."
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px">
+          <a href="#" class="btn btn-primary">Join Our Alumni Network</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Community Partners</h2>
+          <p>Organizations helping us make a difference</p>
+        </div>
+
+        <div class="partners-grid">
+          <div class="partner-logo">
+            <i class="fas fa-hands-helping"></i>
+          </div>
+          <div class="partner-logo">
+            <i class="fas fa-utensils"></i>
+          </div>
+          <div class="partner-logo">
+            <i class="fas fa-book"></i>
+          </div>
+          <div class="partner-logo">
+            <i class="fas fa-laptop"></i>
+          </div>
+          <div class="partner-logo">
+            <i class="fas fa-home"></i>
+          </div>
+          <div class="partner-logo">
+            <i class="fas fa-heartbeat"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Community Gallery</h2>
+          <p>Moments that capture our community spirit</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80"
+              alt="Community garden"
+            />
+            <div class="gallery-overlay">
+              <h3>Food Garden Harvest</h3>
+              <p>Students harvesting fresh vegetables</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80"
+              alt="Tutoring session"
+            />
+            <div class="gallery-overlay">
+              <h3>Literacy Program</h3>
+              <p>Student tutoring young learners</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80"
+              alt="Community event"
+            />
+            <div class="gallery-overlay">
+              <h3>Youth Day Celebration</h3>
+              <p>Annual community gathering</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80"
+              alt="Skills workshop"
+            />
+            <div class="gallery-overlay">
+              <h3>Computer Skills Workshop</h3>
+              <p>Community members learning digital skills</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Get Involved Section -->
+    <section class="involved-section" id="involved">
+      <div class="container">
+        <div class="involved-container">
+          <div class="involved-content">
+            <div class="section-header" style="text-align: left; margin: 0">
+              <h2>Get Involved</h2>
+              <p>Join our community initiatives and make a difference</p>
+            </div>
+
+            <p>
+              Whether you're a parent, community member, or local business,
+              there are many ways to support St. Teresa's community programs:
+            </p>
+
+            <ul style="list-style: none; margin: 20px 0">
+              <li
+                style="
+                  padding: 10px 0;
+                  border-bottom: 1px solid #eee;
+                  display: flex;
+                  align-items: center;
+                "
+              >
+                <i
+                  class="fas fa-check-circle"
+                  style="color: var(--teresa-gold); margin-right: 10px"
+                ></i>
+                Volunteer your time and skills
+              </li>
+              <li
+                style="
+                  padding: 10px 0;
+                  border-bottom: 1px solid #eee;
+                  display: flex;
+                  align-items: center;
+                "
+              >
+                <i
+                  class="fas fa-check-circle"
+                  style="color: var(--teresa-gold); margin-right: 10px"
+                ></i>
+                Donate resources or funds to our projects
+              </li>
+              <li
+                style="
+                  padding: 10px 0;
+                  border-bottom: 1px solid #eee;
+                  display: flex;
+                  align-items: center;
+                "
+              >
+                <i
+                  class="fas fa-check-circle"
+                  style="color: var(--teresa-gold); margin-right: 10px"
+                ></i>
+                Sponsor a student or program
+              </li>
+              <li style="padding: 10px 0; display: flex; align-items: center">
+                <i
+                  class="fas fa-check-circle"
+                  style="color: var(--teresa-gold); margin-right: 10px"
+                ></i>
+                Partner with us on community initiatives
+              </li>
+            </ul>
+
+            <div style="margin-top: 30px">
+              <a href="#" class="btn btn-primary"
+                >Download Our Community Brochure</a
+              >
+            </div>
+          </div>
+
+          <div class="involved-form">
+            <h3 style="text-align: center; margin-bottom: 20px">
+              Contact Us to Get Involved
+            </h3>
+            <form>
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" required />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" />
+              </div>
+
+              <div class="form-group">
+                <label>I'm interested in: *</label>
+                <div class="radio-group">
+                  <div class="radio-option">
+                    <input type="checkbox" id="volunteer" />
+                    <label for="volunteer">Volunteering</label>
+                  </div>
+                  <div class="radio-option">
+                    <input type="checkbox" id="donate" />
+                    <label for="donate">Donating</label>
+                  </div>
+                  <div class="radio-option">
+                    <input type="checkbox" id="partner" />
+                    <label for="partner">Partnership</label>
+                  </div>
+                  <div class="radio-option">
+                    <input type="checkbox" id="other" />
+                    <label for="other">Other</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="4"></textarea>
+              </div>
+
+              <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary">
+                  Submit Interest
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h4>About Our School</h4>
+            <p>
+              St. Teresa Senior Secondary School provides fee-free quality
+              education grounded in Catholic values to learners in the
+              Palmietfontein community.
+            </p>
+            <p><strong>Motto:</strong> "Ora et Labora" (Pray and Work)</p>
+            <p><strong>EMIS Number:</strong> 200600795</p>
+          </div>
+
+          <div class="footer-col">
+            <h4>Community Links</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="#impact"
+                  ><i class="fas fa-chevron-right"></i> Community Projects</a
+                >
+              </li>
+              <li>
+                <a href="#events"
+                  ><i class="fas fa-chevron-right"></i> Upcoming Events</a
+                >
+              </li>
+              <li>
+                <a href="#volunteer"
+                  ><i class="fas fa-chevron-right"></i> Volunteer
+                  Opportunities</a
+                >
+              </li>
+              <li>
+                <a href="#alumni"
+                  ><i class="fas fa-chevron-right"></i> Alumni Network</a
+                >
+              </li>
+              <li>
+                <a href="#involved"
+                  ><i class="fas fa-chevron-right"></i> Get Involved</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Palmietfontein, Eastern
+              Cape, 5320
+            </p>
+            <p><i class="fas fa-phone"></i> +27 43 555 0123</p>
+            <p><i class="fas fa-envelope"></i> office@stteresa.edu.za</p>
+
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2024 St. Teresa Senior Secondary School. All Rights Reserved.
+            | Designed with ♥ for our community
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../scripts/communityPage.js"></script>
+  </body>
+</html>
