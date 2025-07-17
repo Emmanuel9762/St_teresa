@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admissions - St. Teresa Senior Secondary School</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/admissionsPage.css" />
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="container top-bar-content">
+        <div class="contact-top">
+          <span><i class="fas fa-phone"></i> +27 43 555 0123</span>
+          <span
+            ><i class="fas fa-envelope"></i> admissions@stteresa.edu.za</span
+          >
+        </div>
+        <div class="language-toggle">
+          <button class="active">EN</button>
+          <button>XH</button>
+          <button>AF</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <div class="container header-inner">
+        <div class="logo">
+          <div class="logo-img">
+            <svg width="60" height="60" viewBox="0 0 60 60">
+              <circle cx="30" cy="30" r="28" fill="#00563F" />
+              <path
+                d="M30,10 L35,25 L50,25 L37,33 L42,48 L30,38 L18,48 L23,33 L10,25 L25,25 Z"
+                fill="#CFA15B"
+              />
+              <text
+                x="30"
+                y="55"
+                text-anchor="middle"
+                fill="white"
+                font-size="10"
+                font-weight="bold"
+              >
+                ST TERESA
+              </text>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <h1>St. Teresa S.S.S</h1>
+            <p>Empowering Minds, Enriching Communities</p>
+          </div>
+        </div>
+
+        <button class="nav-toggle" id="navToggle">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <nav id="mainNav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="#">Academics <i class="fas fa-chevron-down"></i></a>
+              <ul class="dropdown">
+                <li><a href="#">Curriculum</a></li>
+                <li><a href="#">Subjects</a></li>
+                <li><a href="#">Exam Results</a></li>
+                <li><a href="#">Timetables</a></li>
+              </ul>
+            </li>
+            <li><a href="admissions.html" class="active">Admissions</a></li>
+            <li>
+              <a href="#">Community <i class="fas fa-chevron-down"></i></a>
+              <ul class="dropdown">
+                <li><a href="#">News & Events</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Volunteering</a></li>
+                <li><a href="#">Alumni</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Admissions Process</h1>
+          <p>
+            Begin your journey with St. Teresa Senior Secondary School. We're
+            dedicated to providing quality education rooted in Catholic values
+            to students from all backgrounds.
+          </p>
+
+          <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><span>Admissions</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Admissions Intro -->
+    <section class="admissions-intro">
+      <div class="container">
+        <h2>Join Our Academic Community</h2>
+        <p>
+          As a Quintile 1 institution, St. Teresa offers fee-free education to
+          all qualifying students. Our admissions process is designed to be
+          transparent, fair, and accessible to families throughout the Eastern
+          Cape region.
+        </p>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-date">January - March</div>
+              <h3>Application Period</h3>
+              <p>
+                Submit your application forms along with required documents
+                during our open application period. Late applications may be
+                considered based on availability.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-date">April</div>
+              <h3>Assessment & Review</h3>
+              <p>
+                Our admissions committee reviews all applications. Selected
+                candidates may be invited for placement assessments or
+                interviews.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-date">May</div>
+              <h3>Admission Offers</h3>
+              <p>
+                Successful applicants receive admission offers via email and
+                post. Parents must confirm acceptance within two weeks.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-date">June - July</div>
+              <h3>Orientation & Registration</h3>
+              <p>
+                New student orientation sessions and final registration
+                processes take place. Uniform fittings and textbook distribution
+                are completed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Requirements Section -->
+    <section class="requirements">
+      <div class="container">
+        <div class="section-header">
+          <h2>Admission Requirements</h2>
+          <p>
+            To ensure a smooth application process, please review our admission
+            criteria and required documentation
+          </p>
+        </div>
+
+        <div class="requirements-grid">
+          <div class="requirement-card">
+            <div class="requirement-icon">
+              <i class="fas fa-file-alt"></i>
+            </div>
+            <h3>Application Form</h3>
+            <p>
+              Completed application form signed by parent/guardian and student
+            </p>
+          </div>
+
+          <div class="requirement-card">
+            <div class="requirement-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <h3>Academic Records</h3>
+            <p>Most recent report card and previous academic transcripts</p>
+          </div>
+
+          <div class="requirement-card">
+            <div class="requirement-icon">
+              <i class="fas fa-id-card"></i>
+            </div>
+            <h3>Identification</h3>
+            <p>
+              Certified copies of birth certificate for student and ID of
+              parent/guardian
+            </p>
+          </div>
+
+          <div class="requirement-card">
+            <div class="requirement-icon">
+              <i class="fas fa-home"></i>
+            </div>
+            <h3>Proof of Residence</h3>
+            <p>
+              Utility bill or official letter confirming residential address
+            </p>
+          </div>
+
+          <div class="requirement-card">
+            <div class="requirement-icon">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h3>Medical Information</h3>
+            <p>Immunization records and any relevant medical information</p>
+          </div>
+
+          <div class="requirement-card">
+            <div class="requirement-icon">
+              <i class="fas fa-image"></i>
+            </div>
+            <h3>Photographs</h3>
+            <p>Two recent passport-sized photographs of the student</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Application Form -->
+    <section class="application-section">
+      <div class="container">
+        <div class="form-container">
+          <div class="form-header">
+            <h2>Online Application Form</h2>
+            <p>
+              Complete this form to begin the admission process for the 2025
+              academic year
+            </p>
+          </div>
+
+          <form id="admissionForm">
+            <div class="form-row">
+              <div class="form-col">
+                <div class="form-group">
+                  <label for="firstName">Student's First Name *</label>
+                  <input type="text" id="firstName" required />
+                </div>
+              </div>
+              <div class="form-col">
+                <div class="form-group">
+                  <label for="lastName">Student's Last Name *</label>
+                  <input type="text" id="lastName" required />
+                </div>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-col">
+                <div class="form-group">
+                  <label for="dob">Date of Birth *</label>
+                  <input type="date" id="dob" required />
+                </div>
+              </div>
+              <div class="form-col">
+                <div class="form-group">
+                  <label>Gender *</label>
+                  <div class="radio-group">
+                    <div class="radio-option">
+                      <input
+                        type="radio"
+                        id="male"
+                        name="gender"
+                        value="male"
+                        required
+                      />
+                      <label for="male">Male</label>
+                    </div>
+                    <div class="radio-option">
+                      <input
+                        type="radio"
+                        id="female"
+                        name="gender"
+                        value="female"
+                      />
+                      <label for="female">Female</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="currentSchool">Current School</label>
+              <input type="text" id="currentSchool" />
+            </div>
+
+            <div class="form-group">
+              <label for="grade">Grade Applying For *</label>
+              <select id="grade" required>
+                <option value="">Select Grade</option>
+                <option value="8">Grade 8</option>
+                <option value="9">Grade 9</option>
+                <option value="10">Grade 10</option>
+                <option value="11">Grade 11</option>
+                <option value="12">Grade 12</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="parentName">Parent/Guardian Full Name *</label>
+              <input type="text" id="parentName" required />
+            </div>
+
+            <div class="form-row">
+              <div class="form-col">
+                <div class="form-group">
+                  <label for="parentEmail">Email Address *</label>
+                  <input type="email" id="parentEmail" required />
+                </div>
+              </div>
+              <div class="form-col">
+                <div class="form-group">
+                  <label for="parentPhone">Phone Number *</label>
+                  <input type="tel" id="parentPhone" required />
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="address">Residential Address *</label>
+              <textarea id="address" rows="3" required></textarea>
+            </div>
+
+            <div class="form-group">
+              <label>Upload Required Documents</label>
+              <div class="file-upload">
+                <i class="fas fa-cloud-upload-alt"></i>
+                <p>Click to upload or drag and drop documents</p>
+                <p class="small">(PDF, JPG, or PNG files, max 5MB each)</p>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="radio-option">
+                <input type="checkbox" id="terms" required />
+                <label for="terms"
+                  >I confirm that all information provided is accurate and
+                  complete to the best of my knowledge *</label
+                >
+              </div>
+            </div>
+
+            <div class="form-group text-center">
+              <button type="submit" class="btn btn-primary">
+                Submit Application
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Frequently Asked Questions</h2>
+          <p>Find answers to common questions about our admissions process</p>
+        </div>
+
+        <div class="faq-container">
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>What are the school fees for St. Teresa?</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>
+                  As a Quintile 1 school, St. Teresa provides fee-free education
+                  to all students. There are no tuition fees. Parents are only
+                  responsible for purchasing school uniforms and stationery
+                  supplies.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>What is the application deadline?</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>
+                  The application period for the 2025 academic year opens on
+                  January 15, 2025 and closes on March 31, 2025. Late
+                  applications may be considered based on availability of
+                  spaces.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span>Are there any entrance exams?</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>
+                  We do not require entrance exams for Grade 8 admissions. For
+                  students applying to Grades 9-12, we review previous academic
+                  records and may request placement assessments in core subjects
+                  to determine appropriate class placement.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span
+                >What support is available for students from disadvantaged
+                backgrounds?</span
+              >
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>
+                  We offer several support programs including the National
+                  School Nutrition Program that provides daily meals, a textbook
+                  lending library, after-school tutoring, and counseling
+                  services. Limited financial assistance is available for
+                  uniforms through our community partnership program.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <span
+                >How will I know if my application has been successful?</span
+              >
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>
+                  All applicants will receive notification via email and SMS by
+                  May 15, 2025. Successful applicants will receive an acceptance
+                  letter with registration instructions. If you haven't received
+                  communication by May 20, please contact our admissions office.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Admissions Office</h3>
+
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="contact-text">
+                <h4>Location</h4>
+                <p>
+                  St. Teresa Senior Secondary School<br />Palmietfontein,
+                  Eastern Cape, 5320
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fas fa-clock"></i>
+              <div class="contact-text">
+                <h4>Office Hours</h4>
+                <p>
+                  Monday-Friday: 8:00 AM - 4:30 PM<br />Saturday: 9:00 AM -
+                  12:00 PM
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div class="contact-text">
+                <h4>Phone</h4>
+                <p>+27 43 555 0123</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div class="contact-text">
+                <h4>Email</h4>
+                <p>admissions@stteresa.edu.za</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="section-header">
+              <h2>Schedule a Campus Tour</h2>
+              <p>Experience our learning environment firsthand</p>
+            </div>
+
+            <div class="form-container">
+              <form>
+                <div class="form-group">
+                  <label for="tourName">Your Name *</label>
+                  <input type="text" id="tourName" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="tourEmail">Email *</label>
+                  <input type="email" id="tourEmail" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="tourPhone">Phone *</label>
+                  <input type="tel" id="tourPhone" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="tourDate">Preferred Date *</label>
+                  <input type="date" id="tourDate" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="tourTime">Preferred Time *</label>
+                  <select id="tourTime" required>
+                    <option value="">Select Time</option>
+                    <option value="9:00">9:00 AM</option>
+                    <option value="10:30">10:30 AM</option>
+                    <option value="13:00">1:00 PM</option>
+                    <option value="14:30">2:30 PM</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="tourNotes">Special Requests</label>
+                  <textarea id="tourNotes" rows="3"></textarea>
+                </div>
+
+                <div class="form-group text-center">
+                  <button type="submit" class="btn btn-primary">
+                    Request Tour
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h4>About Our School</h4>
+            <p>
+              St. Teresa Senior Secondary School provides fee-free quality
+              education grounded in Catholic values to learners in the
+              Palmietfontein community.
+            </p>
+            <p><strong>Motto:</strong> "Ora et Labora" (Pray and Work)</p>
+            <p><strong>EMIS Number:</strong> 200600795</p>
+          </div>
+
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Admissions Process</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Exam Timetables</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> School Calendar</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Staff Directory</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Parent Portal</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Palmietfontein, Eastern
+              Cape, 5320
+            </p>
+            <p><i class="fas fa-phone"></i> +27 43 555 0123</p>
+            <p><i class="fas fa-envelope"></i> office@stteresa.edu.za</p>
+
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2024 St. Teresa Senior Secondary School. All Rights Reserved.
+            | Designed with ♥ for our community
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../scripts/admissionsPage.js"></script>
+  </body>
+</html>
