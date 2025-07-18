@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - St. Teresa Senior Secondary School</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/contactPage.css" />
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="container top-bar-content">
+        <div class="contact-top">
+          <span><i class="fas fa-phone"></i> +27 43 555 0123</span>
+          <span><i class="fas fa-envelope"></i> info@stteresa.edu.za</span>
+        </div>
+        <div class="language-toggle">
+          <button class="active">EN</button>
+          <button>XH</button>
+          <button>AF</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <div class="container header-inner">
+        <div class="logo">
+          <div class="logo-img">
+            <svg width="60" height="60" viewBox="0 0 60 60">
+              <circle cx="30" cy="30" r="28" fill="#00563F" />
+              <path
+                d="M30,10 L35,25 L50,25 L37,33 L42,48 L30,38 L18,48 L23,33 L10,25 L25,25 Z"
+                fill="#CFA15B"
+              />
+              <text
+                x="30"
+                y="55"
+                text-anchor="middle"
+                fill="white"
+                font-size="10"
+                font-weight="bold"
+              >
+                ST TERESA
+              </text>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <h1>St. Teresa S.S.S</h1>
+            <p>Empowering Minds, Enriching Communities</p>
+          </div>
+        </div>
+
+        <button class="nav-toggle" id="navToggle">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <nav id="mainNav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li>
+              <a href="#">Community</a>
+              <ul class="dropdown">
+                <li><a href="#">News & Events</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Volunteering</a></li>
+                <li><a href="#">Alumni</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Get In Touch With Us</h1>
+          <p>
+            We're here to answer your questions, hear your feedback, and help
+            you connect with our school community.
+          </p>
+
+          <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><span>Contact</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="info-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>How to Reach Us</h2>
+          <p>
+            Whether you have questions about admissions, academics, or community
+            programs, we're here to help.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h3>Visit Our Campus</h3>
+            <p>Palmietfontein, Eastern Cape, 5320</p>
+            <p>South Africa</p>
+            <a href="#map">Get Directions <i class="fas fa-arrow-right"></i></a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <h3>Call Us</h3>
+            <p>+27 43 555 0123 (Main Office)</p>
+            <p>+27 43 555 0124 (Admissions)</p>
+            <a href="tel:+27435550123">Call Now <i class="fas fa-phone"></i></a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <h3>Email Us</h3>
+            <p>info@stteresa.edu.za (General)</p>
+            <p>admissions@stteresa.edu.za (Admissions)</p>
+            <a href="mailto:info@stteresa.edu.za"
+              >Send Message <i class="fas fa-envelope"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="contact-grid" style="margin-top: 30px">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3>Office Hours</h3>
+            <p><strong>Monday-Friday:</strong> 7:30 AM - 4:30 PM</p>
+            <p><strong>Saturday:</strong> 8:00 AM - 12:00 PM</p>
+            <p><strong>Sunday:</strong> Closed</p>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-calendar"></i>
+            </div>
+            <h3>School Calendar</h3>
+            <p>Term Dates, Holidays, and Special Events</p>
+            <a href="#">View Calendar <i class="fas fa-calendar-alt"></i></a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3>Social Media</h3>
+            <p>Connect with us on social platforms</p>
+            <div
+              class="social-links"
+              style="justify-content: center; margin-top: 15px"
+            >
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form & Map Section -->
+    <section class="form-section" id="map">
+      <div class="container">
+        <div class="section-header">
+          <h2>Send Us a Message</h2>
+          <p>
+            Have questions or feedback? Fill out the form below and we'll get
+            back to you as soon as possible.
+          </p>
+        </div>
+
+        <div class="form-container">
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  class="form-control"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  class="form-control"
+                  placeholder="Enter your phone number"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" class="form-control" required>
+                  <option value="" disabled selected>Select a subject</option>
+                  <option value="admissions">Admissions Inquiry</option>
+                  <option value="academics">Academic Programs</option>
+                  <option value="events">Events Information</option>
+                  <option value="feedback">General Feedback</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea
+                  id="message"
+                  class="form-control"
+                  placeholder="Type your message here..."
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%">
+                Send Message <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+
+          <div class="map-container">
+            <!-- Google Maps Embed -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2209.870320663356!2d27.9011349765244!3d-33.30446120499735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e6611a6f8a1a7a9%3A0x2d9f7a1b6e3b3b1c!2sEastern%20Cape%2C%20South%20Africa!5e0!3m2!1sen!2sus!4v1710479999999!5m2!1sen!2sus"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Departments Section -->
+    <section class="departments-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Department Contacts</h2>
+          <p>
+            Connect directly with specific departments for specialized
+            inquiries.
+          </p>
+        </div>
+
+        <div class="departments-grid">
+          <div class="department-card">
+            <h3><i class="fas fa-graduation-cap"></i> Academics</h3>
+            <p>
+              Curriculum information, subject queries, and academic support
+              services.
+            </p>
+            <div class="department-contact">
+              <i class="fas fa-envelope"></i> academics@stteresa.edu.za
+            </div>
+            <div class="department-contact">
+              <i class="fas fa-phone"></i> +27 43 555 0130
+            </div>
+          </div>
+
+          <div class="department-card">
+            <h3><i class="fas fa-user-friends"></i> Admissions</h3>
+            <p>
+              Application process, requirements, deadlines, and enrollment
+              information.
+            </p>
+            <div class="department-contact">
+              <i class="fas fa-envelope"></i> admissions@stteresa.edu.za
+            </div>
+            <div class="department-contact">
+              <i class="fas fa-phone"></i> +27 43 555 0124
+            </div>
+          </div>
+
+          <div class="department-card">
+            <h3><i class="fas fa-money-bill-wave"></i> Finance</h3>
+            <p>
+              Fee structure, payment options, scholarships, and financial
+              assistance.
+            </p>
+            <div class="department-contact">
+              <i class="fas fa-envelope"></i> finance@stteresa.edu.za
+            </div>
+            <div class="department-contact">
+              <i class="fas fa-phone"></i> +27 43 555 0135
+            </div>
+          </div>
+
+          <div class="department-card">
+            <h3><i class="fas fa-calendar-alt"></i> Events</h3>
+            <p>
+              School events, parent meetings, sports fixtures, and cultural
+              programs.
+            </p>
+            <div class="department-contact">
+              <i class="fas fa-envelope"></i> events@stteresa.edu.za
+            </div>
+            <div class="department-contact">
+              <i class="fas fa-phone"></i> +27 43 555 0140
+            </div>
+          </div>
+
+          <div class="department-card">
+            <h3><i class="fas fa-hands-helping"></i> Community Outreach</h3>
+            <p>
+              Partnerships, volunteering opportunities, and community projects.
+            </p>
+            <div class="department-contact">
+              <i class="fas fa-envelope"></i> community@stteresa.edu.za
+            </div>
+            <div class="department-contact">
+              <i class="fas fa-phone"></i> +27 43 555 0145
+            </div>
+          </div>
+
+          <div class="department-card">
+            <h3><i class="fas fa-user-graduate"></i> Alumni Relations</h3>
+            <p>Networking, reunions, and supporting former students.</p>
+            <div class="department-contact">
+              <i class="fas fa-envelope"></i> alumni@stteresa.edu.za
+            </div>
+            <div class="department-contact">
+              <i class="fas fa-phone"></i> +27 43 555 0150
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Frequently Asked Questions</h2>
+          <p>Find quick answers to common questions about our school.</p>
+        </div>
+
+        <div class="faq-container">
+          <div class="faq-item">
+            <div class="faq-question">
+              What are the school hours? <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Our regular school hours are from 7:45 AM to 2:30 PM, Monday
+                through Friday. After-school programs and tutoring sessions run
+                until 5:00 PM on designated days.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              How can I schedule a campus tour?
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                To schedule a campus tour, please contact our Admissions Office
+                at admissions@stteresa.edu.za or call +27 43 555 0124. Tours are
+                available Monday through Friday between 9:00 AM and 2:00 PM.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              What documents are required for admission?
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Required documents include a completed application form,
+                certified copy of birth certificate, previous school reports,
+                transfer card (if applicable), immunization records, and two
+                recent passport-sized photographs.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              Does the school offer financial assistance?
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Yes, we offer need-based financial assistance to qualifying
+                families. Applications for financial aid are considered annually
+                and require submission of supporting financial documentation.
+                Contact our Finance Office for more details.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              How do I report my child's absence?
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Please notify the school office by phone (+27 43 555 0123) or
+                email (attendance@stteresa.edu.za) before 8:30 AM on the day of
+                absence. For extended absences, a written note is required upon
+                return to school.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h4>About Our School</h4>
+            <p>
+              St. Teresa Senior Secondary School provides fee-free quality
+              education grounded in Catholic values to learners in the
+              Palmietfontein community.
+            </p>
+            <p><strong>Motto:</strong> "Ora et Labora" (Pray and Work)</p>
+            <p><strong>EMIS Number:</strong> 200600795</p>
+          </div>
+
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Academic Calendar</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Exam Timetables</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Subject Resources</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Faculty Directory</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Student Portal</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Palmietfontein, Eastern
+              Cape, 5320
+            </p>
+            <p><i class="fas fa-phone"></i> +27 43 555 0123</p>
+            <p><i class="fas fa-envelope"></i> office@stteresa.edu.za</p>
+
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2024 St. Teresa Senior Secondary School. All Rights Reserved.
+            | Designed with ♥ for our community
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../scripts/contactPage.js"></script>
+  </body>
+</html>
