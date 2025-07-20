@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academic Resources - St. Teresa Senior Secondary School</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../styles/academicResources.css" />
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="container top-bar-content">
+        <div class="contact-top">
+          <span><i class="fas fa-phone"></i> +27 43 555 0123</span>
+          <span><i class="fas fa-envelope"></i> resources@stteresa.edu.za</span>
+        </div>
+        <div class="language-toggle">
+          <button class="active">EN</button>
+          <button>XH</button>
+          <button>AF</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <div class="container header-inner">
+        <div class="logo">
+          <div class="logo-img">
+            <svg width="60" height="60" viewBox="0 0 60 60">
+              <circle cx="30" cy="30" r="28" fill="#00563F" />
+              <path
+                d="M30,10 L35,25 L50,25 L37,33 L42,48 L30,38 L18,48 L23,33 L10,25 L25,25 Z"
+                fill="#CFA15B"
+              />
+              <text
+                x="30"
+                y="55"
+                text-anchor="middle"
+                fill="white"
+                font-size="10"
+                font-weight="bold"
+              >
+                ST TERESA
+              </text>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <h1>St. Teresa S.S.S</h1>
+            <p>Empowering Minds, Enriching Communities</p>
+          </div>
+        </div>
+
+        <button class="nav-toggle" id="navToggle">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <nav id="mainNav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="academics.html"
+                >Academics <i class="fas fa-chevron-down"></i
+              ></a>
+              <ul class="dropdown">
+                <li><a href="academics.html">Curriculum</a></li>
+                <li><a href="academics.html">Subjects</a></li>
+                <li><a href="academics.html">Faculty</a></li>
+                <li><a href="academics.html">Matric Results</a></li>
+                <li><a href="resources.html" class="active">Resources</a></li>
+              </ul>
+            </li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li>
+              <a href="community.html"
+                >Community <i class="fas fa-chevron-down"></i
+              ></a>
+              <ul class="dropdown">
+                <li><a href="community.html">Projects</a></li>
+                <li><a href="community.html">Events</a></li>
+                <li><a href="community.html">Volunteering</a></li>
+                <li><a href="community.html">Alumni</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Academic Resources Hub</h1>
+          <p>
+            Access all learning materials, study guides, past papers, and
+            digital tools in one centralized location
+          </p>
+
+          <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><span>Resources</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resource Search -->
+    <section class="search-section">
+      <div class="container">
+        <div class="search-container">
+          <div class="search-box">
+            <input
+              type="text"
+              placeholder="Search for resources, textbooks, or past papers..."
+            />
+            <button><i class="fas fa-search"></i></button>
+          </div>
+          <div class="search-filters">
+            <div class="filter-btn active">All Resources</div>
+            <div class="filter-btn">Study Guides</div>
+            <div class="filter-btn">Past Papers</div>
+            <div class="filter-btn">Textbooks</div>
+            <div class="filter-btn">Digital Tools</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resource Categories -->
+    <section class="categories-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Resource Categories</h2>
+          <p>Quickly access materials by category</p>
+        </div>
+
+        <div class="categories-grid">
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-file-alt"></i>
+            </div>
+            <h3>Study Guides</h3>
+            <p>Comprehensive guides for all subjects and grades</p>
+            <a href="#" class="btn btn-outline" style="margin-top: 20px"
+              >Explore</a
+            >
+          </div>
+
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-book"></i>
+            </div>
+            <h3>Textbooks</h3>
+            <p>Digital textbooks for the CAPS curriculum</p>
+            <a href="#" class="btn btn-outline" style="margin-top: 20px"
+              >Explore</a
+            >
+          </div>
+
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-clipboard-list"></i>
+            </div>
+            <h3>Past Papers</h3>
+            <p>Matric exam papers with memorandums</p>
+            <a href="#" class="btn btn-outline" style="margin-top: 20px"
+              >Explore</a
+            >
+          </div>
+
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <h3>Digital Tools</h3>
+            <p>Online learning platforms and resources</p>
+            <a href="#" class="btn btn-outline" style="margin-top: 20px"
+              >Explore</a
+            >
+          </div>
+
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-calendar-alt"></i>
+            </div>
+            <h3>Timetables</h3>
+            <p>Class and exam schedules</p>
+            <a href="#" class="btn btn-outline" style="margin-top: 20px"
+              >Explore</a
+            >
+          </div>
+
+          <div class="category-card">
+            <div class="category-icon">
+              <i class="fas fa-chalkboard-teacher"></i>
+            </div>
+            <h3>Teaching Resources</h3>
+            <p>Materials for educators</p>
+            <a href="#" class="btn btn-outline" style="margin-top: 20px"
+              >Explore</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Resources -->
+    <section class="featured-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured Resources</h2>
+          <p>Essential materials for academic success</p>
+        </div>
+
+        <div class="featured-grid">
+          <div class="featured-card">
+            <div class="featured-header">
+              <i class="fas fa-graduation-cap"></i>
+              <h3>Matric Exam Preparation</h3>
+            </div>
+            <div class="featured-body">
+              <p>Resources for final exam preparation:</p>
+              <ul>
+                <li>
+                  <span>Mathematics Study Guide</span>
+                  <span class="file-size">PDF, 5.2MB</span>
+                </li>
+                <li>
+                  <span>Physical Sciences Formula Sheet</span>
+                  <span class="file-size">PDF, 1.1MB</span>
+                </li>
+                <li>
+                  <span>Life Sciences Diagrams Book</span>
+                  <span class="file-size">PDF, 3.7MB</span>
+                </li>
+                <li>
+                  <span>English Paper 1 Tips</span>
+                  <span class="file-size">PDF, 0.8MB</span>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-primary" style="margin-top: 15px"
+                >Download All</a
+              >
+            </div>
+          </div>
+
+          <div class="featured-card">
+            <div class="featured-header">
+              <i class="fas fa-book-open"></i>
+              <h3>Textbook Library</h3>
+            </div>
+            <div class="featured-body">
+              <p>Core textbooks for Grades 10-12:</p>
+              <ul>
+                <li>
+                  <span>Mathematics Grade 12</span>
+                  <span class="file-size">PDF, 12.4MB</span>
+                </li>
+                <li>
+                  <span>Physical Sciences Grade 11</span>
+                  <span class="file-size">PDF, 15.8MB</span>
+                </li>
+                <li>
+                  <span>Accounting Grade 10</span>
+                  <span class="file-size">PDF, 9.3MB</span>
+                </li>
+                <li>
+                  <span>Life Sciences Grade 12</span>
+                  <span class="file-size">PDF, 14.2MB</span>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-primary" style="margin-top: 15px"
+                >Access Library</a
+              >
+            </div>
+          </div>
+
+          <div class="featured-card">
+            <div class="featured-header">
+              <i class="fas fa-calendar-check"></i>
+              <h3>Term 2 Timetables</h3>
+            </div>
+            <div class="featured-body">
+              <p>Current schedules and calendars:</p>
+              <ul>
+                <li>
+                  <span>Grade 12 Exam Timetable</span>
+                  <span class="file-size">PDF, 0.5MB</span>
+                </li>
+                <li>
+                  <span>Grade 10-11 Class Schedule</span>
+                  <span class="file-size">PDF, 0.4MB</span>
+                </li>
+                <li>
+                  <span>School Events Calendar</span>
+                  <span class="file-size">PDF, 0.3MB</span>
+                </li>
+                <li>
+                  <span>June Exam Schedule</span>
+                  <span class="file-size">PDF, 0.6MB</span>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-primary" style="margin-top: 15px"
+                >Download All</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subject Resources -->
+    <section class="subject-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Subject-Specific Resources</h2>
+          <p>Find materials for your specific subjects</p>
+        </div>
+
+        <div class="subject-filter">
+          <button class="subject-btn active" data-subject="math">
+            Mathematics
+          </button>
+          <button class="subject-btn" data-subject="science">
+            Physical Sciences
+          </button>
+          <button class="subject-btn" data-subject="life">Life Sciences</button>
+          <button class="subject-btn" data-subject="english">English</button>
+          <button class="subject-btn" data-subject="accounting">
+            Accounting
+          </button>
+          <button class="subject-btn" data-subject="geography">
+            Geography
+          </button>
+        </div>
+
+        <div class="subject-content active" id="math-content">
+          <h3>Mathematics Resources</h3>
+          <div class="resource-grid">
+            <div class="resource-card">
+              <h4><i class="fas fa-file-pdf"></i> Algebra Study Guide</h4>
+              <p>
+                Comprehensive guide covering all algebra concepts for Grades
+                10-12
+              </p>
+              <a
+                href="#"
+                class="btn btn-outline"
+                style="margin-top: 15px; padding: 8px 15px"
+                >Download</a
+              >
+            </div>
+            <div class="resource-card">
+              <h4><i class="fas fa-video"></i> Calculus Video Series</h4>
+              <p>
+                12-part video series explaining differential and integral
+                calculus
+              </p>
+              <a
+                href="#"
+                class="btn btn-outline"
+                style="margin-top: 15px; padding: 8px 15px"
+                >Watch Now</a
+              >
+            </div>
+            <div class="resource-card">
+              <h4><i class="fas fa-file-alt"></i> June Exam Papers</h4>
+              <p>Past June exam papers with memorandums (2019-2023)</p>
+              <a
+                href="#"
+                class="btn btn-outline"
+                style="margin-top: 15px; padding: 8px 15px"
+                >Download</a
+              >
+            </div>
+            <div class="resource-card">
+              <h4><i class="fas fa-calculator"></i> Finance Formulas Sheet</h4>
+              <p>All formulas for financial mathematics with examples</p>
+              <a
+                href="#"
+                class="btn btn-outline"
+                style="margin-top: 15px; padding: 8px 15px"
+                >Download</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="subject-content" id="science-content">
+          <h3>Physical Sciences Resources</h3>
+          <div class="resource-grid">
+            <div class="resource-card">
+              <h4><i class="fas fa-file-pdf"></i> Physics Formula Sheet</h4>
+              <p>
+                All essential physics formulas for mechanics, electricity, and
+                waves
+              </p>
+              <a
+                href="#"
+                class="btn btn-outline"
+                style="margin-top: 15px; padding: 8px 15px"
+                >Download</a
+              >
+            </div>
+            <div class="resource-card">
+              <h4><i class="fas fa-flask"></i> Chemistry Practical Guide</h4>
+              <p>Step-by-step guide for all required practical experiments</p>
+              <a
+                href="#"
+                class="btn btn-outline"
+                style="margin-top: 15px; padding: 8px 15px"
+                >Download</a
+              >
+            </div>
+            <div class="resource-card">
+              <h4><i class="fas fa-video"></i> Organic Chemistry Tutorials</h4>
+              <p>
+                Video series explaining organic chemistry reactions and
+                mechanisms
+              </p>
+              <a
+                href="#"
+                class="btn btn-outline"
+                style="margin-top: 15px; padding: 8px 15px"
+                >Watch Now</a
+              >
+            </div>
+            <div class="resource-card">
+              <h4><i class="fas fa-file-alt"></i> 2023 Final Exam Papers</h4>
+              <p>Complete set of 2023 exam papers with memorandums</p>
+              <a
+                href="#"
+                class="btn btn-outline"
+                style="margin-top: 15px; padding: 8px 15px"
+                >Download</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Digital Tools -->
+    <section class="tools-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Digital Learning Tools</h2>
+          <p>Online platforms and resources to enhance learning</p>
+        </div>
+
+        <div class="tools-grid">
+          <div class="tool-card">
+            <div class="tool-icon">
+              <i class="fas fa-book-reader"></i>
+            </div>
+            <h3>Siyavula Practice</h3>
+            <p>
+              Interactive practice for Mathematics and Science with instant
+              feedback
+            </p>
+            <a href="#" class="btn btn-outline" style="margin-top: 20px"
+              >Access Platform</a
+            >
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3>Khan Academy</h3>
+            <p>Free video lessons and exercises across all subjects</p>
+            <a href="#" class="btn btn-outline" style="margin-top: 20px"
+              >Access Platform</a
+            >
+          </div>
+
+          <div class="tool-card">
+            <div class="tool-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>Mindset Learn</h3>
+            <p>Curriculum-aligned video lessons and study guides</p>
+            <a href="#" class="btn btn-outline" style="margin-top: 20px"
+              >Access Platform</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h4>About Our School</h4>
+            <p>
+              St. Teresa Senior Secondary School provides fee-free quality
+              education grounded in Catholic values to learners in the
+              Palmietfontein community.
+            </p>
+            <p><strong>Motto:</strong> "Ora et Labora" (Pray and Work)</p>
+            <p><strong>EMIS Number:</strong> 200600795</p>
+          </div>
+
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Academic Calendar</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Exam Timetables</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Subject Resources</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Digital Library</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Student Portal</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Palmietfontein, Eastern
+              Cape, 5320
+            </p>
+            <p><i class="fas fa-phone"></i> +27 43 555 0123</p>
+            <p><i class="fas fa-envelope"></i> office@stteresa.edu.za</p>
+
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2024 St. Teresa Senior Secondary School. All Rights Reserved.
+            | Designed with ♥ for our community
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../scripts/academicResources.js"></script>
+  </body>
+</html>
